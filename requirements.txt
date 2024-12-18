@@ -1,0 +1,27 @@
+tensorflow
+pandas
+numpy
+dvc
+seaborn
+matplotlib
+MDAnalysis
+RDKit
+OpenBabel
+PyMOL
+vina
+Chimera
+flask 
+nglview 
+biopython
+sklearn
+torch
+torch-geometric
+flask-cors
+python-box
+pyYAML
+tqdm
+scipy
+ensure
+joblib
+types-PyYAML
+-e .
