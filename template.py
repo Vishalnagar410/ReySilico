@@ -22,16 +22,17 @@ list_of_files= [
      "requirements.txt",
      "setup.py",
      "research/trials.ipynb",
-     "templates/index.html",
-     "templates/styl.css",
-     "templates/ReySilico_app.js",
+     "frontend/index.html",
+     "frontend/styl.css",
+     "frontend/ReySilico_app.js",
      "ReySilico_app.py",
+     "main.py"
  ]
  
 for filepath in list_of_files:
     filepath = Path(filepath)
     filedir, filename = os.path.split(filepath)
-     
+
     if filedir != "":
         os.makedirs(filedir, exist_ok= True)
         logging.info(f"Creating directory;{filedir} for the file: {filename}")

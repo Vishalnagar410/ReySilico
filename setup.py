@@ -12,7 +12,7 @@ SRC_REPO="ReySilico"
 AUTHOR_EMAIL="vishalnagar410@gmail.com"
 
 setuptools.setup(
-    name=SCR_REPO,
+    name=SRC_REPO,
     version=__version__,
     author=AUTHOR_USER_NAME,
     author_email=AUTHOR_EMAIL,
@@ -24,6 +24,5 @@ setuptools.setup(
         "Bug Tracker":f"https://github.com/{AUTHOR_USER_NAME}/{REPO_NAME}/issues",
     },
     package_dir={"":"src"},
-    packages=stuptools.find_packages(where="src")
-    
+    packages=setuptools.find_packages(where="src")
 )
