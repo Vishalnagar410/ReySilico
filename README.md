@@ -1,2 +1,0 @@
-# ReySilico
-DD_Project
